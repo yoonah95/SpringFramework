@@ -14,18 +14,9 @@
 <sf:form method="post" action="${pageContext.request.contextPath}/docreate" modelAttribute="subject">
 <table class="formtable">
 
-<tr> <td class="label"> Year: </td> <td><Input class="control" type="text" name="year"/><br/>
-<errors path="year" class"error"/></td> </tr>
-<tr> <td class="label"> Semester: </td> <td><Input class="control" type="text" name="semester"/><br/>
-<errors path="semester" class"error"/></td> </tr>
-<tr> <td class="label"> Code: </td> <td><Input class="control" type="text" name="code"/><br/>
-<errors path="code" class"error"/></td> </tr>
+
 <tr> <td class="label"> Name: </td> <td><Input class="control" type="text" name="name"/><br/>
 <errors path="name" class"error"/></td> </tr>
-<tr> <td class="label"> Separation: </td> <td><Input class="control" type="text" name="separation"/><br/>
-<errors path="separation" class"error"/></td> </tr>
-<tr> <td class="label"> Credit: </td> <td><Input class="control" type="text" name="credit"/><br/>
-<errors path="credit" class"error"/></td> </tr>
 <tr> <td class="label"></td> <td><Input class="control" type="submit" value="신청"/></td> </tr>
 
 </table>
